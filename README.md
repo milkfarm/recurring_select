@@ -1,7 +1,5 @@
 # Recurring Select
 
-[![Build Status](https://travis-ci.org/milkfarmproductions/recurring_select.png?branch=master)](https://travis-ci.org/milkfarmproductions/recurring_select) [![Code Climate](https://codeclimate.com/github/milkfarmproductions/recurring_select.png)](https://codeclimate.com/github/milkfarmproductions/recurring_select)
-
 This gem adds selectors and helpers for working with recurring schedules in a Rails app. It uses [ice_cube](https://github.com/seejohnrun/ice_cube) recurring scheduling gem.
 
 Created by the [Jobber](http://getjobber.com) team for Jobber, the leading business management tool for field service companies.
