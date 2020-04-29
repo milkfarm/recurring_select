@@ -26,6 +26,7 @@ module RecurringSelect
     if possible_rule.is_a?(String)
       begin
         JSON.parse(possible_rule)
+        return false if %w(null 0).include?(possible_rule)
         return true
       rescue JSON::ParserError
         return false
